@@ -53,6 +53,41 @@ var library = {
             "description": "The lessons from Krishna to Arjuna were phenomenal, but the translation lacks deeper meanings which are only uncovered from the untranslated Gita.",
             "rating": "4",
             "emoji": "🙏"
+        },
+        {
+            "name": "Da Vinci Code",
+            "author": "Dan Brown",
+            "description": "Action packed mystery thriller featuring Robert Langdon, cryptologist, who investigates a murder that happened in the Louvre -- ending up in a rabbit hole.",
+            "rating": "5",
+            "emoji": "🎭"
+        },
+        {
+            "name": "Angels & Demons",
+            "author": "Dan Brown",
+            "description": "Cool mystery thriller, featuring Robert Langdon, who needs to solve yet another mystery, this time involving the Illuminati & the Vatican.",
+            "rating": "4",
+            "emoji": "🏛"
+        },
+        {
+            "name": "Next",
+            "author": "Michael Crichton",
+            "description": "Techno-thriller that dives through multiple storylines that all converge. Lots of futuristic biotech and genetic research related plot points -- exciting read.",
+            "rating": "5",
+            "emoji": "🧬"
+        },
+        {
+            "name": "Prey",
+            "author": "Michael Crichton",
+            "description": "Cautionary tale about nanotech that runs rampant, develops a malicious AI, and wreaks havoc to its creators. Exciting read, just like the rest of Crichton's writing.",
+            "rating": "4",
+            "emoji": "🙏"
+        },
+        {
+            "name": "Mindset",
+            "author": "Carol Dweck",
+            "description": "A series of case studies about why having a 'growth mindset' is better than having a 'fixed mindset'. Makes a good point but I felt that it was too repetitive.",
+            "rating": "3",
+            "emoji": "🌲"
         }
         ]
     }
