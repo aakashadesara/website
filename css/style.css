@@ -8,9 +8,42 @@
     color: #870101;
 }
 
+.shakeit{
+    animation: shake 4s cubic-bezier(.36,.07,.19,.97) infinite;
+  }
+
+@keyframes shake {
+    2.5%, 25.5% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    5%, 20% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    7.5%, 12.5%, 17.5% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    10%, 15% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
 /* general */
 p {
     margin-top: 3px !important;
+}
+
+a {
+    margin-right: 15px !important;
+    color: #444 !important; 
+    text-decoration: underline;
+}
+
+
+a:hover {
+    color: #888 !important; 
 }
 
 /* components */
