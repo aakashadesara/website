@@ -36,9 +36,8 @@ p {
 }
 
 a {
-    margin-right: 15px !important;
     color: #444 !important; 
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 
 
@@ -47,6 +46,10 @@ a:hover {
 }
 
 /* components */
+
+.links {
+    margin-right: 15px !important;
+}
 
 .fancy {
     font-family: 'Volkhov', serif;
