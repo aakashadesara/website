@@ -8,6 +8,16 @@
     color: #870101;
 }
 
+.blue {
+  color: #013382;
+}
+
+.gray {
+  color: #555;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+
 .shakeit{
     animation: shake 4s cubic-bezier(.36,.07,.19,.97) infinite;
   }
@@ -46,6 +56,9 @@ a:hover {
 }
 
 /* components */
+.smaller {
+  font-size: 90%;
+}
 
 .links {
     margin-right: 15px !important;
@@ -71,4 +84,13 @@ a:hover {
     font-size: 12px;
     color: gray;
     margin-top: 10px !important;
+}
+
+.bookdescription {
+  font-size: 12px;
+  color: gray;
+}
+
+.bookcontainer {
+  margin-top: 15px !important;
 }
