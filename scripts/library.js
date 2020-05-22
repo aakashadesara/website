@@ -15,7 +15,7 @@ function getRating(n) {
 function generateBook(obj) {
     return '<div class="col-md-12 bookcontainer">' +
                 '<div class="col-md-12 row smaller">' +
-                 obj.emoji + obj.name + ' <span class="gray">(' + obj.author + ')</span>' + getRating(obj.rating) +
+                '<span class="col-md-10">' + obj.emoji + " " + obj.name + ' <span class="gray">(' + obj.author + ')</span></span>' + '<span class="col-md-2" style="text-align: left;">' + getRating(obj.rating) + '</span>' +
                 '</div>' +
                 '<div class="col-md-12 row bookdescription">' +
                     obj.description +
