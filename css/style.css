@@ -1,15 +1,13 @@
 * {
     padding: 0px !important;
+    font-family: 'Josefin Sans', sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
 }
 
 a {
     text-decoration: none !important;
-}
-
-.merriweather {
-    font-family: Merriweather;
-    font-style: normal;
-    font-weight: bold;
 }
 
 .vertalign {
