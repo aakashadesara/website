@@ -4,7 +4,7 @@
         <title>Aakash Adesara</title>
 
         <!-- css -->
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Serif+Text&family=Lato&family=Yeseva+One&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css"></link>
@@ -74,11 +74,11 @@
                 books.forEach(element => {
                     var append = '<div class="col-md-12 row" style="padding-left: 20px !important;">' + 
                                     '<div class="col-md-6">' +
-                                        '<p class="" style="margin: 0px !important; padding: 0px !important; margin-bottom: 5px !important; font-weight: bold;">' + element.emoji + ' ' + element.name + ' (Lois Lowry)</p>' +
+                                        '<h5 class="" style="margin: 0px !important; padding: 0px !important; margin-bottom: 5px !important; font-weight: bold;">' + element.emoji + ' ' + element.name + ' (' + element.author + ')</h5>' +
                                             getStars(element.rating) +
                                     '</div>' +
                                     '<div class="col-md-6">' +
-                                        '<p>Jonas, a young boy, exists in a seemingly utopian but actually distopian society and needs to collect the truth from The Giver</p>' +
+                                        '<p>' + element.description + '</p>' +
                                     '</div>' +
                                 '</div><hr/>';
 

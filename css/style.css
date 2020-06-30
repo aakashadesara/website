@@ -1,7 +1,10 @@
 * {
     padding: 0px !important;
-    font-family: 'Josefin Sans', sans-serif;
+    
+}
 
+.merriweather {
+    font-family: 'DM Serif Text', serif;
     font-style: normal;
     font-weight: bold;
 }
