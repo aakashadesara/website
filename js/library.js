@@ -88,6 +88,27 @@ var library = {
             "description": "A series of case studies about why having a 'growth mindset' is better than having a 'fixed mindset'. Makes a good point but I felt that it was too repetitive.",
             "rating": "3",
             "emoji": "🌲"
+        },
+        {
+            "name": "The Rise of Kyoshi",
+            "author": "F. C. Yee",
+            "description": "Any fan of Avatar the Last Airbender will love the Kyoshi novels! Gritty, more intense, and darker subject matter -- but all in the same amazing Avatar universe.",
+            "rating": "4.5",
+            "emoji": "🧗🏽‍♀️"
+        },
+        {
+            "name": "The Shadow of Kyoshi",
+            "author": "F. C. Yee",
+            "description": "Amazing follow up to the first book! Non-stop page turner. Yee uses vivid imagery to describe Kyoshi's story -- I had a hard time putting this book down.",
+            "rating": "4.5",
+            "emoji": "🧗🏽‍♀️"
+        },
+        {
+            "name": "Atomic Habits",
+            "author": "James Clear",
+            "description": "Pretty solid self-improvement book. Clear is very clear about habit formation strategies, easy tips to breaking bad habits, and how small behavioral changes lead to long term effects.",
+            "rating": "3.5",
+            "emoji": "🧠"
         }
         ]
     }
