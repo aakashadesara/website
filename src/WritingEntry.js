@@ -10,7 +10,7 @@ export const WritingEntry = (props) => {
   return (
     <div
       style={{
-        width: "95%",
+        width: "90%",
         border: "solid 1px #333",
         borderRadius: "4px",
         fontSize: 12,

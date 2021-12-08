@@ -9,7 +9,7 @@ export const BookEntry = (props) => {
   return (
     <div
       style={{
-        width: "95%",
+        width: "100%",
         border: "solid 1px #333",
         borderRadius: "4px",
         fontSize: 12,
@@ -25,9 +25,9 @@ export const BookEntry = (props) => {
           src={image}
           alt="book artwork"
           style={{
-            height: "120px",
-            width: "80px",
-            minWidth: "80px",
+            height: "140px",
+            width: "90px",
+            minWidth: "90px",
             objectFit: "fill",
             borderTopLeftRadius: 2,
             borderBottomLeftRadius: 2,

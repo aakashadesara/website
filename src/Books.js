@@ -43,6 +43,15 @@ var library = {
       image: "https://images-na.ssl-images-amazon.com/images/I/91Q5dCjc2KL.jpg",
     },
     {
+      name: "Hacking Growth",
+      author: "Sean Ellis",
+      description:
+        "Hacking Growth provides case studies that offers teams a methodology for finding and optimizing new strategies to grow quickly, and virally.",
+      rating: "5",
+      emoji: "📈",
+      image: "https://images-na.ssl-images-amazon.com/images/I/81zKeVUasGL.jpg",
+    },
+    {
       name: "Next",
       author: "Michael Crichton",
       description:
@@ -70,6 +79,25 @@ var library = {
       rating: "4.5",
       emoji: "🧗🏽‍♀️",
       image: "https://images-na.ssl-images-amazon.com/images/I/91SKlgSB+EL.jpg",
+    },
+    {
+      name: "An American Sickness",
+      author: "Elisabeth Rosenthal",
+      description:
+        "The medical system has been overrun by organizations seeking to exploit vulnerable and sick Americans for profit. Rosenthal uncovers the horrors via case studies.",
+      rating: "4.5",
+      emoji: "🤕",
+      image: "https://images-na.ssl-images-amazon.com/images/I/81WK7463xfL.jpg",
+    },
+    {
+      name: "The Wright Brothers",
+      author: "David McCullough",
+      description:
+        "The history of the American inventors and aviation pioneers Orville and Wilbur Wright. Scrappy pair that hustled and made the impossible, possible.",
+      rating: "4",
+      emoji: "✈️",
+      image:
+        "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/TheWrightBrothers.jpg/220px-TheWrightBrothers.jpg",
     },
     {
       name: "Bhagavad Gita (Translation)",
@@ -116,6 +144,15 @@ var library = {
       rating: "4",
       emoji: "🏛",
       image: "https://images-na.ssl-images-amazon.com/images/I/81S+VsvKTlL.jpg",
+    },
+    {
+      name: "The Vanishing Half",
+      author: "Brit Bennett",
+      description:
+        "The story of twin girls growing up in the segregated South. Compelling read and a #1 New York Times bestseller!",
+      rating: "4",
+      emoji: "🎭",
+      image: "https://images-na.ssl-images-amazon.com/images/I/81ICvbFe2+L.jpg",
     },
     {
       name: "Atomic Habits",
