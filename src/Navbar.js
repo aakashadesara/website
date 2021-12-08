@@ -16,25 +16,37 @@ export const Navbar = (props) => {
         AAKASH ADESARA
       </div>
       <div
-        onClick={() => (window.location = "/#/work")}
+        onClick={() => {
+          window.location = "/#/work";
+          window.location.reload();
+        }}
         style={{ width: "15%", textAlign: "center", cursor: "pointer" }}
       >
         WORK
       </div>
       <div
-        onClick={() => (window.location = "/#/writing")}
+        onClick={() => {
+          window.location = "/#/writing";
+          window.location.reload();
+        }}
         style={{ width: "15%", textAlign: "center", cursor: "pointer" }}
       >
         WRITING
       </div>
       <div
-        onClick={() => (window.location = "/#/art")}
+        onClick={() => {
+          window.location = "/#/art";
+          window.location.reload();
+        }}
         style={{ width: "15%", textAlign: "center", cursor: "pointer" }}
       >
         ART
       </div>
       <div
-        onClick={() => (window.location = "/#/books")}
+        onClick={() => {
+          window.location = "/#/books";
+          window.location.reload();
+        }}
         style={{ width: "15%", textAlign: "center", cursor: "pointer" }}
       >
         BOOKS
