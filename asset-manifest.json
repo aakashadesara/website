@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.11f79e39.chunk.css",
+    "main.js": "/static/js/main.fed4aeb6.chunk.js",
+    "main.js.map": "/static/js/main.fed4aeb6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0ea20b30.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0ea20b30.js.map",
+    "static/js/2.92f0504d.chunk.js": "/static/js/2.92f0504d.chunk.js",
+    "static/js/2.92f0504d.chunk.js.map": "/static/js/2.92f0504d.chunk.js.map",
+    "static/js/3.2e80f5bf.chunk.js": "/static/js/3.2e80f5bf.chunk.js",
+    "static/js/3.2e80f5bf.chunk.js.map": "/static/js/3.2e80f5bf.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.11f79e39.chunk.css.map": "/static/css/main.11f79e39.chunk.css.map",
+    "static/js/2.92f0504d.chunk.js.LICENSE.txt": "/static/js/2.92f0504d.chunk.js.LICENSE.txt",
+    "static/media/aakash.5bcfcf4f.jpeg": "/static/media/aakash.5bcfcf4f.jpeg",
+    "static/media/aakash.958af18c.jpeg": "/static/media/aakash.958af18c.jpeg",
+    "static/media/bojack.63f3ecc1.png": "/static/media/bojack.63f3ecc1.png",
+    "static/media/bowser.39c215e6.jpeg": "/static/media/bowser.39c215e6.jpeg",
+    "static/media/eclipse.5a27fb83.jpeg": "/static/media/eclipse.5a27fb83.jpeg",
+    "static/media/fish.dc99be17.png": "/static/media/fish.dc99be17.png",
+    "static/media/highlight.04127b07.png": "/static/media/highlight.04127b07.png",
+    "static/media/japan.2b7b28df.jpeg": "/static/media/japan.2b7b28df.jpeg",
+    "static/media/lumber.4dea4324.jpeg": "/static/media/lumber.4dea4324.jpeg",
+    "static/media/mandalorian.3c177f2b.jpeg": "/static/media/mandalorian.3c177f2b.jpeg",
+    "static/media/owl.abc5ea05.jpeg": "/static/media/owl.abc5ea05.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ea20b30.js",
+    "static/js/2.92f0504d.chunk.js",
+    "static/css/main.11f79e39.chunk.css",
+    "static/js/main.fed4aeb6.chunk.js"
+  ]
+}
