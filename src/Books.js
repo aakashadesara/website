@@ -2,9 +2,6 @@ import "./App.css";
 import { BookEntry } from "./BookEntry";
 import { Footer } from "./Footer";
 import { Navbar } from "./Navbar";
-import { Pill } from "./Pill";
-
-import { WritingEntry } from "./WritingEntry";
 
 var library = {
   books: [

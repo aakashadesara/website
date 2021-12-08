@@ -16,7 +16,6 @@ export const HighlightPill = (props) => {
         paddingBottom: 4,
         borderRadius: 4,
         fontSize: 8,
-        marginLeft: 16,
         color: "#333333",
         textTransform: "uppercase",
         cursor: "pointer",

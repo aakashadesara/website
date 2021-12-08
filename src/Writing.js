@@ -1,7 +1,6 @@
 import "./App.css";
 import { Footer } from "./Footer";
 import { Navbar } from "./Navbar";
-import { Pill } from "./Pill";
 
 import { WritingEntry } from "./WritingEntry";
 

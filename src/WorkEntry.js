@@ -21,10 +21,10 @@ export const WorkEntry = (props) => {
     >
       <img
         src={logo}
+        alt="company logo"
         style={{
           width: 80,
           height: 80,
-          marginTop: 8,
           borderRadius: 4,
           margin: 16,
           marginTop: 22,

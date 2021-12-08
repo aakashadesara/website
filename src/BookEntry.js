@@ -23,6 +23,7 @@ export const BookEntry = (props) => {
       {image && (
         <img
           src={image}
+          alt="book artwork"
           style={{
             height: "120px",
             width: "80px",

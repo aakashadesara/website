@@ -27,7 +27,7 @@ export function Homepage() {
       <p>
         Currently, I'm an engineer at{" "}
         <span style={{ marginLeft: 3 }}>
-          <a href="https://athelas.com/" target="_blank">
+          <a href="https://athelas.com/" target="_blank" rel="noreferrer">
             Athelas
           </a>
         </span>
@@ -35,7 +35,11 @@ export function Homepage() {
         modern healthcare. Outside of work, I started and operate a startup
         newsletter called
         <span style={{ marginLeft: 3 }}>
-          <a href="https://www.dailydropout.fyi" target="_blank">
+          <a
+            href="https://www.dailydropout.fyi"
+            target="_blank"
+            rel="noreferrer"
+          >
             DailyDropout.FYI
           </a>
         </span>{" "}
@@ -63,7 +67,9 @@ export function Homepage() {
             <Pill
               text="LATEST BLOG POST"
               link="https://athelaseng.substack.com/p/-say-hello-to-athelas-one"
-            />{" "}
+            />
+          </p>
+          <p>
             <HighlightPill
               text="Read post"
               link="https://athelaseng.substack.com/p/-say-hello-to-athelas-one"
@@ -90,6 +96,8 @@ export function Homepage() {
               text="FEATURED PROJECT"
               link="https://opensea.io/collection/pixel-punks-project"
             />
+          </p>
+          <p>
             <HighlightPill
               text="View punks"
               link="https://opensea.io/collection/pixel-punks-project"
@@ -103,7 +111,11 @@ export function Homepage() {
 
       <div style={{ flexDirection: "row", display: "flex", marginTop: 12 }}>
         <div>
-          <img src={ProfileImage} style={{ width: 70, height: 70 }} />
+          <img
+            src={ProfileImage}
+            style={{ width: 70, height: 70 }}
+            alt="personal pixel punk"
+          />
         </div>
 
         <div style={{ height: 40, marginLeft: 12, marginTop: -14 }}>

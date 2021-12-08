@@ -1,6 +1,5 @@
 import "./App.css";
 import { Navbar } from "./Navbar";
-import { Pill } from "./Pill";
 
 import AthelasLogo from "./assets/athelas.jpeg";
 import BTFLogo from "./assets/btf.jpeg";

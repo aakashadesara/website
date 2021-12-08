@@ -23,6 +23,7 @@ export function Art() {
 
       <img
         src={AakashPortrait}
+        alt="artwork"
         style={{ width: "100%", borderRadius: 4, marginBottom: 8 }}
       />
       <div style={{ flexDirection: "row", display: "flex" }}>
@@ -85,6 +86,7 @@ export function Art() {
             borderRadius: 4,
             marginRight: 8,
           }}
+          alt="artwork"
         />
 
         <img
@@ -93,30 +95,37 @@ export function Art() {
             width: "49%",
             borderRadius: 4,
           }}
+          alt="artwork"
         />
       </div>
       <img
         src={Japan}
+        alt="artwork"
         style={{ width: "100%", borderRadius: 4, marginBottom: 8 }}
       />
       <img
         src={Eclipse}
+        alt="artwork"
         style={{ width: "100%", borderRadius: 4, marginBottom: 8 }}
       />
       <img
         src={Mandalorian}
+        alt="artwork"
         style={{ width: "100%", borderRadius: 4, marginBottom: 8 }}
       />
       <img
         src={Owl}
+        alt="artwork"
         style={{ width: "100%", borderRadius: 4, marginBottom: 8 }}
       />
       <img
         src={Lumber}
+        alt="artwork"
         style={{ width: "100%", borderRadius: 4, marginBottom: 8 }}
       />
       <img
         src={Bowser}
+        alt="artwork"
         style={{ width: "100%", borderRadius: 4, marginBottom: 8 }}
       />
 
