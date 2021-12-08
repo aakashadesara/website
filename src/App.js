@@ -13,17 +13,13 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
 
-        <Route path="/#/work" element={<Work />} />
         <Route path="/work" element={<Work />} />
 
-        <Route path="/#/writing" element={<Writing />} />
         <Route path="/writing" element={<Writing />} />
 
-        <Route path="/#/art" element={<Art />} />
         <Route path="/art" element={<Art />} />
 
         <Route path="/books" element={<Books />} />
-        <Route path="/#/books" element={<Books />} />
       </Routes>
     </BrowserRouter>
   );
