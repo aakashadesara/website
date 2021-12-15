@@ -15,25 +15,33 @@ export const Navbar = (props) => {
       </Link>
       <Link
         to="/work"
-        style={{ width: "15%", textAlign: "center", cursor: "pointer" }}
+        style={{ width: "20%", textAlign: "right", cursor: "pointer" }}
       >
         WORK
       </Link>
       <Link
         to="/writing"
-        style={{ width: "15%", textAlign: "center", cursor: "pointer" }}
+        style={{ width: "20%", textAlign: "right", cursor: "pointer" }}
       >
         WRITING
       </Link>
+
+      <Link
+        to="/music"
+        style={{ width: "16%", textAlign: "right", cursor: "pointer" }}
+      >
+        MUSIC
+      </Link>
+
       <Link
         to="/art"
-        style={{ width: "15%", textAlign: "center", cursor: "pointer" }}
+        style={{ width: "12%", textAlign: "right", cursor: "pointer" }}
       >
         ART
       </Link>
       <Link
         to="/books"
-        style={{ width: "15%", textAlign: "center", cursor: "pointer" }}
+        style={{ width: "18%", textAlign: "right", cursor: "pointer" }}
       >
         BOOKS
       </Link>

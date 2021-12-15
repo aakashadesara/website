@@ -9,6 +9,17 @@ import Owl from "./assets/art/owl.jpeg";
 import Lumber from "./assets/art/lumber.jpeg";
 import Eclipse from "./assets/art/eclipse.jpeg";
 
+import Punk1 from "./assets/punks/1.png";
+import Punk2 from "./assets/punks/2.png";
+import Punk3 from "./assets/punks/3.png";
+import Punk4 from "./assets/punks/4.png";
+import Punk5 from "./assets/punks/5.png";
+import Punk6 from "./assets/punks/6.png";
+import Punk7 from "./assets/punks/7.png";
+import Punk8 from "./assets/punks/8.png";
+import Punk9 from "./assets/punks/9.png";
+import Punk10 from "./assets/punks/10.png";
+
 import Bowser from "./assets/art/bowser.jpeg";
 import { Footer } from "./Footer";
 import { Pill } from "./Pill";
@@ -80,6 +91,33 @@ export function Art() {
 
       <div style={{ flexDirection: "row", display: "flex", marginBottom: 8 }}>
         <img
+          src={Punk10}
+          alt="artwork"
+          style={{ width: "18.4%", borderRadius: 4, marginRight: "2%" }}
+        />
+        <img
+          src={Punk9}
+          alt="artwork"
+          style={{ width: "18.4%", borderRadius: 4, marginRight: "2%" }}
+        />
+        <img
+          src={Punk8}
+          alt="artwork"
+          style={{ width: "18.4%", borderRadius: 4, marginRight: "2%" }}
+        />
+        <img
+          src={Punk4}
+          alt="artwork"
+          style={{ width: "18.4%", borderRadius: 4, marginRight: "2%" }}
+        />
+        <img
+          src={Punk7}
+          alt="artwork"
+          style={{ width: "18.4%", borderRadius: 4, marginRight: "2%" }}
+        />
+      </div>
+      <div style={{ flexDirection: "row", display: "flex", marginBottom: 8 }}>
+        <img
           src={Bojack}
           style={{
             width: "49%",
@@ -108,6 +146,33 @@ export function Art() {
         alt="artwork"
         style={{ width: "100%", borderRadius: 4, marginBottom: 8 }}
       />
+      <div style={{ flexDirection: "row", display: "flex", marginBottom: 8 }}>
+        <img
+          src={Punk1}
+          alt="artwork"
+          style={{ width: "18.4%", borderRadius: 4, marginRight: "2%" }}
+        />
+        <img
+          src={Punk2}
+          alt="artwork"
+          style={{ width: "18.4%", borderRadius: 4, marginRight: "2%" }}
+        />
+        <img
+          src={Punk3}
+          alt="artwork"
+          style={{ width: "18.4%", borderRadius: 4, marginRight: "2%" }}
+        />
+        <img
+          src={Punk5}
+          alt="artwork"
+          style={{ width: "18.4%", borderRadius: 4, marginRight: "2%" }}
+        />
+        <img
+          src={Punk6}
+          alt="artwork"
+          style={{ width: "18.4%", borderRadius: 4, marginRight: "2%" }}
+        />
+      </div>
       <img
         src={Mandalorian}
         alt="artwork"

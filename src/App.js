@@ -6,6 +6,7 @@ import { Books } from "./Books";
 import { Homepage } from "./Homepage";
 import { Work } from "./Work";
 import { Writing } from "./Writing";
+import { Music } from "./Music";
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
         <Route path="/work" element={<Work />} />
 
         <Route path="/writing" element={<Writing />} />
+
+        <Route path="/music" element={<Music />} />
 
         <Route path="/art" element={<Art />} />
 
