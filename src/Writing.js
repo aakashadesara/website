@@ -12,6 +12,14 @@ export function Writing() {
       <Navbar />
 
       <WritingEntry
+        title={"Build Internal Tools Fast and at Scale"}
+        date={"December 31, 2021"}
+        tags={["Athelas", "Healthcare", "Interal Tools"]}
+        description="Using Retool to catalyze developer and operational velocity for our growing healthcare startup."
+        link="https://athelaseng.substack.com/p/-build-internal-tools-fast-and-at"
+      />
+
+      <WritingEntry
         title={"Say Hello to Athelas One"}
         date={"October 29, 2021"}
         tags={["Athelas", "Healthcare"]}
