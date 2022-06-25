@@ -5981,10 +5981,10 @@
     "array-includes" "^3.1.4"
     "object.assign" "^4.1.2"
 
-"keysho@^1.0.6":
-  "integrity" "sha512-NdTWO828aFZC5ar+4vqQ3ml2xV1zz8ZdTyaM1ibYNbxSr2EXBOnMMmC3UxqAfXY4bvBU/XwsZ1sFlUQ3H+r42w=="
-  "resolved" "https://registry.npmjs.org/keysho/-/keysho-1.0.6.tgz"
-  "version" "1.0.6"
+"keysho@^1.1.1":
+  "integrity" "sha512-gkFMaviuiUGNuSOaFUkPTILu0kAJpk7mHrqulNGSY+FMC+6aRVTsOjaXcHCiLCEMViaQrnXeSev1WW7zU0xrBg=="
+  "resolved" "https://registry.npmjs.org/keysho/-/keysho-1.1.1.tgz"
+  "version" "1.1.1"
   dependencies:
     "animate.css" "^4.1.1"
     "animate.css-react" "^1.1.0"
@@ -8775,9 +8775,9 @@
     "is-typedarray" "^1.0.0"
 
 "typescript@^3.2.1 || ^4", "typescript@>= 2.7", "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta":
-  "integrity" "sha512-WOkT3XYvrpXx4vMMqlD+8R8R37fZkjyLGlxavMc4iB8lrl8L0DeTcHbYgw/v0N/z9wAFsgBhcsF0ruoySS22mA=="
-  "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.7.3.tgz"
-  "version" "4.7.3"
+  "integrity" "sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ=="
+  "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.7.4.tgz"
+  "version" "4.7.4"
 
 "ua-parser-js@^0.7.30":
   "integrity" "sha512-qLK/Xe9E2uzmYI3qLeOmI0tEOt+TBBQyUIAh4aAgU05FVYzeZrKUdkAZfBNVGRaHVgV0TDkdEngJSw/SyQchkQ=="
