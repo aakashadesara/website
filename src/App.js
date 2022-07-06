@@ -14,10 +14,7 @@ import "keysho/dist/index.css";
 function App() {
   return (
     <>
-      <Keysho
-        config_uuid={"b46acd46-e92c-11ec-995a-1eab7e003dc6"}
-        actionMap={{}}
-      />
+      <Keysho config_uuid="b46acd46-e92c-11ec-995a-1eab7e003dc6" />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homepage />} />
