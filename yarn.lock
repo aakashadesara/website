@@ -5981,10 +5981,10 @@
     "array-includes" "^3.1.4"
     "object.assign" "^4.1.2"
 
-"keysho@^1.2.5":
-  "integrity" "sha512-f8tCWvZYzOvShFQ2DQFlY0xN1ubhPL1+jQ9nAHeN3/iwEW+91OlA1oPgsWstCGCGlid2gS43GgkzAE6pWtycHw=="
-  "resolved" "https://registry.npmjs.org/keysho/-/keysho-1.2.5.tgz"
-  "version" "1.2.5"
+"keysho@^1.2.6":
+  "integrity" "sha512-D7GESE+jw9u/FtL0aQnyCGqWBphTe5LOC/aX9VYd+BPCz+eMMnFU7VXfAcjGgvkLjy9O2KEBkSCV6SRvnswSug=="
+  "resolved" "https://registry.npmjs.org/keysho/-/keysho-1.2.6.tgz"
+  "version" "1.2.6"
   dependencies:
     "animate.css" "^4.1.1"
     "animate.css-react" "^1.1.0"
