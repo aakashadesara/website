@@ -20,11 +20,11 @@ export function Homepage() {
       />
       <p>
         I'm a California based engineer building in AI, venture, and healthcare.
-        In the past, I've been to 80+ hackathons, assembled rockets, and created
-        some digital art. I love road biking and lo-fi bass-heavy instrumentals.
+        In the past, I've been to 90+ hackathons, assembled rockets, and created
+        some digital art. I love road biking and house/lo-fi music.
       </p>
       <p>
-        Currently, I'm an engineer at{" "}
+        Currently, I lead growth engineering at{" "}
         <span style={{ marginLeft: 3 }}>
           <a href="https://athelas.com/" target="_blank" rel="noreferrer">
             Athelas
@@ -44,6 +44,16 @@ export function Homepage() {
         </span>{" "}
         with 50k+ community members - we support founders with hiring,
         marketing, and capital.
+      </p>
+      <p>
+        I'm bullish on the idea of ethical transhumanism - the gap between
+        humans & AI is closing every day with the advent of neurotech, AI, gNLP,
+        and robotics. My past work at organizations like Lyft, Nextdoor,
+        Athelas, & UC Berkeley has helped solidify this for me.
+      </p>
+      <p>
+        Besides that I also love chatting about space exploration, functional
+        efficiency, & computer-assisted art.
       </p>
       <p>
         Looking to chat? Feel free to DM me on Twitter ({" "}
