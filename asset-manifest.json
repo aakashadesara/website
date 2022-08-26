@@ -1,9 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.a2880c37.css",
-    "main.js": "/static/js/main.c7703d04.js",
+    "main.css": "/static/css/main.21deb9a7.css",
+    "main.js": "/static/js/main.4ec64333.js",
     "static/js/787.39d6ebe3.chunk.js": "/static/js/787.39d6ebe3.chunk.js",
+    "static/media/diablo.png": "/static/media/diablo.83c5d44b140038726f01.png",
     "static/media/highlight.png": "/static/media/highlight.04127b07120cd2f32794.png",
+    "static/media/coral_biostructure.png": "/static/media/coral_biostructure.8b95159d936712927bc2.png",
+    "static/media/atlantis.png": "/static/media/atlantis.28a8cb6b13967d7b9630.png",
+    "static/media/symphon.png": "/static/media/symphon.b81dd2bb3da3277285b9.png",
+    "static/media/octo.png": "/static/media/octo.8e13e3f3e42079eac4bf.png",
+    "static/media/futurama.png": "/static/media/futurama.d75bdeb2716633ece3da.png",
     "static/media/bojack.png": "/static/media/bojack.63f3ecc1aa41394b2add.png",
     "static/media/fish.png": "/static/media/fish.dc99be1713ec8d8856a7.png",
     "static/media/lumber.jpeg": "/static/media/lumber.4dea4324fa6a32848677.jpeg",
@@ -23,12 +29,12 @@
     "static/media/4.png": "/static/media/4.a0feb6f390de685b6cda.png",
     "static/media/5.png": "/static/media/5.2228d55a5c95725a08a3.png",
     "index.html": "/index.html",
-    "main.a2880c37.css.map": "/static/css/main.a2880c37.css.map",
-    "main.c7703d04.js.map": "/static/js/main.c7703d04.js.map",
+    "main.21deb9a7.css.map": "/static/css/main.21deb9a7.css.map",
+    "main.4ec64333.js.map": "/static/js/main.4ec64333.js.map",
     "787.39d6ebe3.chunk.js.map": "/static/js/787.39d6ebe3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2880c37.css",
-    "static/js/main.c7703d04.js"
+    "static/css/main.21deb9a7.css",
+    "static/js/main.4ec64333.js"
   ]
 }
