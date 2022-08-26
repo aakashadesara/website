@@ -19,10 +19,9 @@ export function Homepage() {
         style={{ width: "100%" }}
       />
       <p>
-        I'm a California based engineer building in healthcare, venture, and
-        crypto. In the past, I've been to 80+ hackathons, assembled rockets, and
-        created some digital art. I love road biking and lo-fi bass-heavy
-        instrumentals.
+        I'm a California based engineer building in AI, venture, and healthcare.
+        In the past, I've been to 80+ hackathons, assembled rockets, and created
+        some digital art. I love road biking and lo-fi bass-heavy instrumentals.
       </p>
       <p>
         Currently, I'm an engineer at{" "}
@@ -32,8 +31,8 @@ export function Homepage() {
           </a>
         </span>
         , a fast-growing, venture backed startup pushing the boundaries of
-        modern healthcare. Outside of work, I started and operate a startup
-        newsletter called
+        modern healthcare. Outside of work, I started and operate a venture firm
+        called
         <span style={{ marginLeft: 3 }}>
           <a
             href="https://www.dailydropout.fyi"
@@ -43,7 +42,8 @@ export function Homepage() {
             DailyDropout.FYI
           </a>
         </span>{" "}
-        with 40k+ community members.
+        with 50k+ community members - we support founders with hiring,
+        marketing, and capital.
       </p>
       <p>
         Looking to chat? Feel free to DM me on Twitter ({" "}

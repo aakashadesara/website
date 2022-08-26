@@ -1,4 +1,8 @@
 import "./App.css";
+
+import { Toggle } from "react-toggle-component";
+import styled from "styled-components";
+
 import { Navbar } from "./Navbar";
 import AakashPortrait from "./assets/art/aakash.jpeg";
 import Mandalorian from "./assets/art/mandalorian.jpeg";
@@ -8,6 +12,13 @@ import Japan from "./assets/art/japan.jpeg";
 import Owl from "./assets/art/owl.jpeg";
 import Lumber from "./assets/art/lumber.jpeg";
 import Eclipse from "./assets/art/eclipse.jpeg";
+
+import Atlantis from "./assets/ai_generated/atlantis.png";
+import CoralBiostructure from "./assets/ai_generated/coral_biostructure.png";
+import Diablo from "./assets/ai_generated/diablo.png";
+import Futurama from "./assets/ai_generated/futurama.png";
+import Octo from "./assets/ai_generated/octo.png";
+import Symphon from "./assets/ai_generated/symphon.png";
 
 import Punk1 from "./assets/punks/1.png";
 import Punk2 from "./assets/punks/2.png";
@@ -24,14 +35,73 @@ import Bowser from "./assets/art/bowser.jpeg";
 import { Footer } from "./Footer";
 import { Pill } from "./Pill";
 import { HighlightPill } from "./HighlightPill";
+import { useState } from "react";
+
+const Label = styled.label`
+  display: flex;
+  grid-auto-flow: column;
+  grid-auto-columns: min-content;
+  white-space: nowrap;
+  align-items: center;
+  cursor: pointer;
+  width: 70%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+`;
+
+const Sample = styled.div`
+  padding: 0px;
+`;
+
+const Root = styled.div`
+  font-family: Arial, Helvetica, sans-serif;
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    padding-bottom: 4px;
+    border-bottom: 1px solid #ccc;
+  }
+`;
 
 export function Art() {
+  const [showHandDrawnArt, setShowHandDrawnArt] = useState(true);
+
   return (
     <div
       style={{ maxWidth: 450, margin: "0% auto", padding: 16, fontSize: 14 }}
     >
       <Navbar />
 
+      <Sample>
+        <Label htmlFor="toggle-3">
+          <Toggle
+            leftBackgroundColor="tomato"
+            rightBackgroundColor="green"
+            borderColor="black"
+            knobColor="white"
+            name="toggle-3"
+            onToggle={(e) => setShowHandDrawnArt(!showHandDrawnArt)}
+          />
+          {showHandDrawnArt ? (
+            <>Check out my art generated with stable diffusion</>
+          ) : (
+            <>Check out my handmade art (procreate, figma, fine mediums)</>
+          )}
+        </Label>
+      </Sample>
+
+      {showHandDrawnArt ? <HandDrawnArt /> : <AIGeneratedArt />}
+
+      <Footer />
+    </div>
+  );
+}
+
+export const HandDrawnArt = () => {
+  return (
+    <>
       <img
         src={AakashPortrait}
         alt="artwork"
@@ -193,8 +263,48 @@ export function Art() {
         alt="artwork"
         style={{ width: "100%", borderRadius: 4, marginBottom: 8 }}
       />
-
-      <Footer />
-    </div>
+    </>
   );
-}
+};
+
+export const AIGeneratedArt = () => {
+  return (
+    <>
+      <img
+        src={Atlantis}
+        alt="artwork"
+        style={{ width: "100%", borderRadius: 4, marginBottom: 8 }}
+      />
+
+      <img
+        src={CoralBiostructure}
+        alt="artwork"
+        style={{ width: "100%", borderRadius: 4, marginBottom: 8 }}
+      />
+
+      <img
+        src={Diablo}
+        alt="artwork"
+        style={{ width: "100%", borderRadius: 4, marginBottom: 8 }}
+      />
+
+      <img
+        src={Futurama}
+        alt="artwork"
+        style={{ width: "100%", borderRadius: 4, marginBottom: 8 }}
+      />
+
+      <img
+        src={Octo}
+        alt="artwork"
+        style={{ width: "100%", borderRadius: 4, marginBottom: 8 }}
+      />
+
+      <img
+        src={Symphon}
+        alt="artwork"
+        style={{ width: "100%", borderRadius: 4, marginBottom: 8 }}
+      />
+    </>
+  );
+};
