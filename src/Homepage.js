@@ -48,8 +48,8 @@ export function Homepage() {
       <p>
         I'm bullish on the idea of ethical transhumanism - the gap between
         humans & AI is closing every day with the advent of neurotech, AI, gNLP,
-        and robotics. My past work at organizations like Lyft, Nextdoor,
-        Athelas, & UC Berkeley has helped solidify this for me.
+        and robotics. My work at organizations like Lyft, Nextdoor, Athelas, &
+        UC Berkeley has helped solidify this for me.
       </p>
       <p>
         Besides that I also love chatting about space exploration, functional
