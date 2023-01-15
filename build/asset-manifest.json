@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.93a73646.css",
-    "main.js": "/static/js/main.665a6016.js",
+    "main.js": "/static/js/main.df8cc525.js",
     "static/js/787.39d6ebe3.chunk.js": "/static/js/787.39d6ebe3.chunk.js",
     "static/media/diablo.png": "/static/media/diablo.83c5d44b140038726f01.png",
     "static/media/highlight.png": "/static/media/highlight.04127b07120cd2f32794.png",
@@ -17,6 +17,7 @@
     "static/media/bowser.jpeg": "/static/media/bowser.39c215e63049ee2aa299.jpeg",
     "static/media/aakash.jpeg": "/static/media/aakash.5bcfcf4fa4edb7582323.jpeg",
     "static/media/eclipse.jpeg": "/static/media/eclipse.5a27fb83f10abdb80078.jpeg",
+    "static/media/sellscale.png": "/static/media/sellscale.16e9534bd33b7c0fabe0.png",
     "static/media/japan.jpeg": "/static/media/japan.2b7b28dfad380b07a334.jpeg",
     "static/media/mandalorian.jpeg": "/static/media/mandalorian.3c177f2b4c3826b959f7.jpeg",
     "static/media/6.png": "/static/media/6.3ea14cfdde400c954d40.png",
@@ -30,11 +31,11 @@
     "static/media/5.png": "/static/media/5.2228d55a5c95725a08a3.png",
     "index.html": "/index.html",
     "main.93a73646.css.map": "/static/css/main.93a73646.css.map",
-    "main.665a6016.js.map": "/static/js/main.665a6016.js.map",
+    "main.df8cc525.js.map": "/static/js/main.df8cc525.js.map",
     "787.39d6ebe3.chunk.js.map": "/static/js/787.39d6ebe3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93a73646.css",
-    "static/js/main.665a6016.js"
+    "static/js/main.df8cc525.js"
   ]
 }
