@@ -1,19 +1,15 @@
 import { Link } from "react-router-dom";
 import { ActionToggle } from "./components/colorSchemeToggle";
+import { SpotlightControl } from "./components/Spotlight";
 export const Navbar = (props) => {
   return (
     <div>
-      <div style={{ position: "absolute", top: 0, right: 20 }}>
-        <ActionToggle />
-      </div>
-
       <div
         style={{
           flexDirection: "row",
-          marginBottom: 24,
           display: "flex",
           fontSize: 12,
-          marginTop: 60,
+          marginTop: 8,
         }}
       >
         <Link to="/" style={{ width: "40%", cursor: "pointer" }}>
@@ -49,6 +45,11 @@ export const Navbar = (props) => {
         >
           BOOKS
         </Link>{" "}
+      </div>
+      <div style={{ flexDirection: "row", display: "flex" }}>
+        <SpotlightControl />
+        <div style={{ width: "100%" }}></div>
+        <ActionToggle />
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from "react";
+import { SpotlightProvider, openSpotlight } from "@mantine/spotlight";
 
 import "./App.css";
 import { Art } from "./Art";
@@ -14,6 +15,8 @@ import "keysho/dist/index.css";
 
 import { MantineProvider, ColorSchemeProvider } from "@mantine/core";
 import { NewHomepage } from "./NewHomepage";
+import { SPOTLIGHT_ACTIONS } from "./components/Spotlight";
+import { IconSearch } from "@tabler/icons";
 
 function App() {
   const [colorScheme, setColorScheme] = useState("dark");
@@ -33,23 +36,31 @@ function App() {
           withNormalizeCSS
           theme={{ colorScheme: colorScheme }}
         >
-          <BrowserRouter>
-            <Routes>
-              <Route path="/" element={<Homepage />} />
+          <SpotlightProvider
+            actions={SPOTLIGHT_ACTIONS}
+            searchIcon={<IconSearch size={18} />}
+            searchPlaceholder="Search..."
+            shortcut={["mod + P", "mod + K"]}
+            nothingFoundMessage="Nothing found..."
+          >
+            <BrowserRouter>
+              <Routes>
+                <Route path="/" element={<Homepage />} />
 
-              <Route path="/new" element={<NewHomepage />} />
+                <Route path="/new" element={<NewHomepage />} />
 
-              <Route path="/work" element={<Work />} />
+                <Route path="/work" element={<Work />} />
 
-              <Route path="/writing" element={<Writing />} />
+                <Route path="/writing" element={<Writing />} />
 
-              <Route path="/music" element={<Music />} />
+                <Route path="/music" element={<Music />} />
 
-              <Route path="/art" element={<Art />} />
+                <Route path="/art" element={<Art />} />
 
-              <Route path="/books" element={<Books />} />
-            </Routes>
-          </BrowserRouter>
+                <Route path="/books" element={<Books />} />
+              </Routes>
+            </BrowserRouter>
+          </SpotlightProvider>
         </MantineProvider>
       </ColorSchemeProvider>
     </>
