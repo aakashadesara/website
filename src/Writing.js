@@ -12,6 +12,16 @@ export function Writing() {
       <Navbar />
 
       <WritingEntry
+        title={
+          "What is generative AI and how will it change the way we do sales?"
+        }
+        date={"August 31, 2022"}
+        tags={["SellScale", "AI", "Sales"]}
+        description="Sales technology has come a long way from the days of cold calling and manual data entry. With the advent of the internet and mobile devices, sales teams now have access to a wealth of tools and platforms that make it easier to connect with potential customers and close deals."
+        link="https://www.sellscale.com/post/what-is-generative-ai-and-how-will-it-change-the-way-we-do-sales"
+      />
+
+      <WritingEntry
         title={"Build Internal Tools Fast and at Scale"}
         date={"December 31, 2021"}
         tags={["Athelas", "Healthcare", "Interal Tools"]}
