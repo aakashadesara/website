@@ -1,7 +1,13 @@
 import { Button, Group } from "@mantine/core";
 import { openSpotlight } from "@mantine/spotlight";
 import type { SpotlightAction } from "@mantine/spotlight";
-import { IconHome, IconDashboard, IconFileText } from "@tabler/icons";
+import {
+  IconHome,
+  IconWriting,
+  IconBriefcase,
+  IconMusic,
+  IconBooks,
+} from "@tabler/icons";
 import { TextInput } from "@mantine/core";
 import { IconCommand } from "@tabler/icons";
 
@@ -29,27 +35,27 @@ export const SPOTLIGHT_ACTIONS: SpotlightAction[] = [
     title: "Work",
     description: "Learn about my work",
     onTrigger: () => (window.location = "/work"),
-    icon: <IconDashboard size={18} />,
+    icon: <IconBriefcase size={18} />,
   },
 
   {
     title: "Writing",
     description: "Read some of my writing",
     onTrigger: () => (window.location = "/writing"),
-    icon: <IconDashboard size={18} />,
+    icon: <IconWriting size={18} />,
   },
 
   {
     title: "Music",
     description: "Listen to some of my music",
     onTrigger: () => (window.location = "/music"),
-    icon: <IconDashboard size={18} />,
+    icon: <IconMusic size={18} />,
   },
 
   {
     title: "Books",
     description: "Read some of my books",
     onTrigger: () => (window.location = "/books"),
-    icon: <IconDashboard size={18} />,
+    icon: <IconBooks size={18} />,
   },
 ];
