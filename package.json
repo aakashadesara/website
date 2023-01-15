@@ -20,7 +20,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "python scripts/predeploy.py && gh-pages -d build",
+    "deploy": "python3 scripts/predeploy.py && gh-pages -d build",
     "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
