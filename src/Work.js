@@ -111,7 +111,7 @@ export function Work() {
 
   return (
     <div
-      style={{ maxWidth: 450, margin: "0% auto", padding: 16, fontSize: 14 }}
+      style={{ maxWidth: 550, margin: "0% auto", padding: 16, fontSize: 14 }}
     >
       <Navbar />
       <Accordion chevronPosition="right" variant="contained">

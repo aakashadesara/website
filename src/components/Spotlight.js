@@ -1,4 +1,4 @@
-import { Button, Group } from "@mantine/core";
+import { Button, Group, Kbd } from "@mantine/core";
 import { openSpotlight } from "@mantine/spotlight";
 import type { SpotlightAction } from "@mantine/spotlight";
 import {
@@ -7,18 +7,28 @@ import {
   IconBriefcase,
   IconMusic,
   IconBooks,
+  IconArtboard,
 } from "@tabler/icons";
 import { TextInput } from "@mantine/core";
-import { IconCommand } from "@tabler/icons";
+import { IconSearch } from "@tabler/icons";
 
+const rightSection = (
+  <div style={{ display: "flex", alignItems: "center" }}>
+    <Kbd>⌘</Kbd>
+    <span style={{ margin: "0 5px" }}>+</span>
+    <Kbd>K</Kbd>
+  </div>
+);
 export function SpotlightControl() {
   return (
     <Group position="center" style={{ width: "400px" }}>
       <TextInput
-        placeholder="Search (or CMD + K)"
-        size="xs"
+        placeholder="Search"
+        rightSection={rightSection}
+        rightSectionWidth={80}
         onClick={() => openSpotlight()}
-        icon={<IconCommand size={14} />}
+        sx={{ marginRight: 8 }}
+        icon={<IconSearch size={16} />}
       />
     </Group>
   );
@@ -50,6 +60,13 @@ export const SPOTLIGHT_ACTIONS: SpotlightAction[] = [
     description: "Listen to some of my music",
     onTrigger: () => (window.location = "/music"),
     icon: <IconMusic size={18} />,
+  },
+
+  {
+    title: "Art",
+    description: "Check out some of my artwork",
+    onTrigger: () => (window.location = "/art"),
+    icon: <IconArtboard size={18} />,
   },
 
   {
