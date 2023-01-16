@@ -1,5 +1,5 @@
 import { Button, Group, Kbd } from "@mantine/core";
-import { openSpotlight } from "@mantine/spotlight";
+import { toggleSpotlight } from "@mantine/spotlight";
 import type { SpotlightAction } from "@mantine/spotlight";
 import {
   IconHome,
@@ -21,12 +21,15 @@ const rightSection = (
 );
 export function SpotlightControl() {
   return (
-    <Group position="center" style={{ width: "400px" }}>
+    <Group
+      position="center"
+      style={{ width: "400px" }}
+      onClick={() => toggleSpotlight()}
+    >
       <TextInput
         placeholder="Search"
         rightSection={rightSection}
         rightSectionWidth={80}
-        onClick={() => openSpotlight()}
         sx={{ marginRight: 8 }}
         icon={<IconSearch size={16} />}
       />
@@ -37,41 +40,41 @@ export function SpotlightControl() {
 export const SPOTLIGHT_ACTIONS: SpotlightAction[] = [
   {
     title: "Home",
-    description: "Go to the homepage",
+    description: "Where all else begins, what am I?",
     onTrigger: () => (window.location = "/"),
     icon: <IconHome size={18} />,
   },
   {
     title: "Work",
-    description: "Learn about my work",
+    description: "A product of effort, what am I?",
     onTrigger: () => (window.location = "/work"),
     icon: <IconBriefcase size={18} />,
   },
 
   {
     title: "Writing",
-    description: "Read some of my writing",
+    description: "Voice of silence, what am I?",
     onTrigger: () => (window.location = "/writing"),
     icon: <IconWriting size={18} />,
   },
 
   {
     title: "Music",
-    description: "Listen to some of my music",
+    description: "Rhythm of life, what am I?",
     onTrigger: () => (window.location = "/music"),
     icon: <IconMusic size={18} />,
   },
 
   {
     title: "Art",
-    description: "Check out some of my artwork",
+    description: "Expression of emotions, what am I?",
     onTrigger: () => (window.location = "/art"),
     icon: <IconArtboard size={18} />,
   },
 
   {
     title: "Books",
-    description: "Read some of my books",
+    description: "Window to other worlds, what am I?",
     onTrigger: () => (window.location = "/books"),
     icon: <IconBooks size={18} />,
   },
