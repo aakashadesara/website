@@ -21,20 +21,29 @@ export function Homepage() {
         </Card.Section>
         <br />
         <Text size="sm">
-          I'm a California based engineer building in AI, venture, and
-          healthcare. In the past, I've been to 90+ hackathons, assembled
-          rockets, and created some digital art. I love road biking and
-          house/lo-fi music.
+          I'm a California-based engineer with a passion for AI, venture, and
+          growth tech. I have experience in various fields, from assembling
+          rockets to participating in over 90 hackathons and creating digital
+          art. In my free time, I enjoy road biking and listening to house and
+          lo-fi music.
+        </Text>
+        <br />
+        <Text size="sm">
+          Currently, I am a co-founder & lead engineering at{" "}
+          <a href="https://www.sellscale.com">SellScale</a>, a company that
+          provides AI-powered tools to enterprise growth teams. Our products
+          leverage cutting-edge advancements in AI such as LLMs, generative
+          models, and case-specific embeddings to give our clients a competitive
+          edge.
         </Text>
         <br />
         <Text>
-          Currently, I lead growth engineering at{" "}
+          Previously, I lead growth engineering at{" "}
           <a href="https://athelas.com/" target="_blank" rel="noreferrer">
             Athelas
           </a>
-          , a fast-growing, venture backed startup pushing the boundaries of
-          modern healthcare. Outside of work, I started and operate a venture
-          firm called{" "}
+          , a venture backed startup pushing the boundaries of modern
+          healthcare. I also founded and advise a venture firm called{" "}
           <a
             href="https://www.dailydropout.fyi"
             target="_blank"
@@ -42,20 +51,23 @@ export function Homepage() {
           >
             DailyDropout.FYI
           </a>{" "}
-          with 50k+ community members - we support founders with hiring,
-          marketing, and capital.
+          which supports founders with hiring, marketing, and capital.
+          DailyDropout.fyi also has a web3 and AI/ML arm comprising of over 80k+
+          members under the umbrella.
         </Text>
         <br />
         <Text>
-          I'm bullish on the idea of ethical transhumanism - the gap between
-          humans & AI is closing every day with the advent of neurotech, AI,
-          gNLP, and robotics. My work at organizations like Lyft, Nextdoor,
-          Athelas, & UC Berkeley has helped solidify this for me.
+          I am bullish on the idea of ethical transhumanism and believe that the
+          gap between humans and AI is closing every day with advancements in
+          neurotech, AI, gNLP, and robotics. My experience working at
+          organizations like Lyft, Nextdoor, Athelas, and UC Berkeley has
+          solidified this for me.
         </Text>
         <br />
         <Text>
-          Besides that I also love chatting about space exploration, functional
-          efficiency, & computer-assisted art.
+          In addition to my work in AI and venture, I also enjoy discussing
+          topics such as space exploration, functional efficiency, and
+          computer-assisted art.
         </Text>
         <br />
         <Text>
