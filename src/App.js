@@ -19,10 +19,16 @@ import { SPOTLIGHT_ACTIONS } from "./components/Spotlight";
 import { IconSearch } from "@tabler/icons";
 
 function App() {
-  const [colorScheme, setColorScheme] = useState("dark");
-  const toggleColorScheme = (value) =>
+  const [colorScheme, setColorScheme] = useState(
+    localStorage.getItem("colorScheme") || "dark"
+  );
+  const toggleColorScheme = (value) => {
     setColorScheme(value || (colorScheme === "dark" ? "light" : "dark"));
-
+    localStorage.setItem(
+      "colorScheme",
+      value || (colorScheme === "dark" ? "light" : "dark")
+    );
+  };
   return (
     <>
       {/* <Keysho config_uuid="b46acd46-e92c-11ec-995a-1eab7e003dc6" /> */}
